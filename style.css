@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
 /* Common  */
 body {
     width: 1280px;
     margin: auto;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* header  */
@@ -17,7 +21,7 @@ body {
 .header-item {
     padding-left: 110px;
     padding-top: 110px;
-    font-size: 25px;
+    font-size: 23px;
 
 }
 
@@ -28,7 +32,7 @@ body {
     background-color: rgb(25, 144, 184);
     padding: 8px 8px 8px 18px;
     border-radius: 5px;
-    font-weight: 600;
+    font-weight: 400;
     margin-top: 15px;
 
 }
@@ -36,7 +40,7 @@ body {
 .fa-greater-than {
     padding-left: 8px;
     padding-right: 10px;
-    font-weight: 490;
+    font-weight: 400;
 }
 
 #header-pic {
