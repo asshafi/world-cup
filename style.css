@@ -46,3 +46,33 @@ body {
 #header-pic {
     height: 646px;
 }
+
+/* side menu bar  */
+.side-bar {
+    background-color: black;
+    width: 25%;
+    height: 312px;
+    border-radius: 10px;
+}
+
+.side-bar ul {
+    list-style: none;
+
+}
+
+.side-bar a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin-top: 27px;
+    padding: 10px 10px 10px 10px;
+    width: 200px;
+    height: 28px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+a.active {
+    background-color: rgb(25, 144, 184);
+}
