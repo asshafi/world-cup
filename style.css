@@ -2,7 +2,8 @@
 
 
 /* Common  */
-body {
+header,
+main {
     width: 1280px;
     margin: auto;
     font-family: 'Poppins', sans-serif;
@@ -47,16 +48,22 @@ body {
     height: 646px;
 }
 
+#sidebarwithcontent {
+    display: flex;
+    margin-top: 130px;
+}
+
 /* side menu bar  */
 .side-bar {
     background-color: black;
     width: 25%;
-    height: 312px;
+    height: 340px;
     border-radius: 10px;
 }
 
 .side-bar ul {
     list-style: none;
+    padding-left: 25px;
 
 }
 
@@ -65,7 +72,7 @@ body {
     text-decoration: none;
     color: black;
     background-color: white;
-    margin-top: 27px;
+    margin-top: 23px;
     padding: 10px 10px 10px 10px;
     width: 200px;
     height: 28px;
@@ -75,4 +82,87 @@ body {
 
 a.active {
     background-color: rgb(25, 144, 184);
+}
+
+/* main conten article  */
+#article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.main-content {
+    margin-left: 24px;
+    margin-bottom: 130px;
+    width: 312px;
+    height: 362px;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 10px;
+    background-color: rgb(252, 254, 255);
+}
+
+.match-details {
+    padding-left: 25px;
+    padding-right: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.link-button-main {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(250, 254, 255);
+    padding: 3px 20px 3px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 5px;
+    border: 1px solid rgb(54, 54, 54);
+
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    padding-left: 25px;
+}
+
+.duration {
+    display: flex;
+    gap: 5px;
+    color: rgba(22, 22, 22, 0.7);
+}
+
+.inbox {
+    display: flex;
+    gap: 5px;
+    color: rgba(22, 22, 22, 0.7);
+}
+
+/* Footer  */
+footer {
+    text-align: center;
+    background-color: black;
+    height: 200px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: rgb(204, 206, 208);
+}
+
+#footer-hr {
+    width: 70%;
+    opacity: 40%;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    margin-left: 20%;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: rgb(207, 209, 211);
+
 }
